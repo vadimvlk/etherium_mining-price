@@ -15,7 +15,7 @@ namespace etherium_mining_price
         {
             try
             {
-                ServicePointManager.SecurityProtocol =  SecurityProtocolType.Tls | SecurityProtocolType.Tls11 | SecurityProtocolType.Tls12;
+                ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls | SecurityProtocolType.Tls11 | SecurityProtocolType.Tls12;
                 WebRequest wreq = WebRequest.Create(URL);
                 wreq.Timeout = 60000;
                 WebResponse wres = wreq.GetResponse();
@@ -32,28 +32,28 @@ namespace etherium_mining_price
         }
     }
     class Program
-    {    
+    {
         static void Main(string[] args)
         {
 
-                double neededPrice = 0;
-                Stex[] JS ;
-                string pricehttp = @"https://app.stocks.exchange/api2/prices";
-                string JSON = GetData.GETTHHTPREQUEST(pricehttp);
-                
-                JS = JsonConvert.DeserializeObject<Stex[]>(JSON);
-                int iMax = JS.Length;
-                int i = iMax;
-                
-                do
-                {
-                    i--;
-                } while (JS[i].MarketName != "CLO_BTC" && i >= 0);
-                if (i + 1 < JS.Length)
-                //    neededPrice = (double)JS[i].Buy;
-                Console.WriteLine(JS[i].Buy);
+            double neededPrice = 0;
+            Stex[] JS;
+            string pricehttp = @"https://app.stocks.exchange/api2/prices";
+            string JSON = GetData.GETTHHTPREQUEST(pricehttp);
 
-            Console.WriteLine("Hello World!");
+            JS = JsonConvert.DeserializeObject<Stex[]>(JSON);
+            int iMax = JS.Length;
+            int i = iMax;
+
+            do
+            {
+                i--;
+            } while (JS[i].MarketName != "CLO_BTC" && i >= 0);
+            if (i + 1 < JS.Length)
+                neededPrice = JS[i].Buy;
+            Console.WriteLine(JS[i].Buy);
+
+            Console.WriteLine(JS[i].MarketName);
         }
     }
 }
