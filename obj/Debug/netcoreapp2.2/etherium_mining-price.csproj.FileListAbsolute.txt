@@ -1,0 +1,11 @@
+C:\Visual Studio Code\etherium_mining-price\etherium_mining-price\bin\Debug\netcoreapp2.2\etherium_mining-price.deps.json
+C:\Visual Studio Code\etherium_mining-price\etherium_mining-price\bin\Debug\netcoreapp2.2\etherium_mining-price.runtimeconfig.json
+C:\Visual Studio Code\etherium_mining-price\etherium_mining-price\bin\Debug\netcoreapp2.2\etherium_mining-price.runtimeconfig.dev.json
+c:\Visual Studio Code\etherium_mining-price\etherium_mining-price\bin\Debug\netcoreapp2.2\etherium_mining-price.dll
+c:\Visual Studio Code\etherium_mining-price\etherium_mining-price\bin\Debug\netcoreapp2.2\etherium_mining-price.pdb
+c:\Visual Studio Code\etherium_mining-price\etherium_mining-price\obj\Debug\netcoreapp2.2\etherium_mining-price.csprojAssemblyReference.cache
+c:\Visual Studio Code\etherium_mining-price\etherium_mining-price\obj\Debug\netcoreapp2.2\etherium_mining-price.csproj.CoreCompileInputs.cache
+c:\Visual Studio Code\etherium_mining-price\etherium_mining-price\obj\Debug\netcoreapp2.2\etherium_mining-price.AssemblyInfoInputs.cache
+c:\Visual Studio Code\etherium_mining-price\etherium_mining-price\obj\Debug\netcoreapp2.2\etherium_mining-price.AssemblyInfo.cs
+c:\Visual Studio Code\etherium_mining-price\etherium_mining-price\obj\Debug\netcoreapp2.2\etherium_mining-price.dll
+c:\Visual Studio Code\etherium_mining-price\etherium_mining-price\obj\Debug\netcoreapp2.2\etherium_mining-price.pdb
