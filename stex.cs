@@ -1,18 +1,8 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading;
-using System.Net;
-using System.IO;
 using Newtonsoft.Json;
-using Newtonsoft.Json.Converters;
 
 namespace etherium_mining_price
 {
-
-
-    public partial class Stex
+    public class Stex
     {
         [JsonProperty("buy")]
         public double Buy { get; set; }
@@ -30,7 +20,7 @@ namespace etherium_mining_price
         public long ServerTime { get; set; }
     }
 
-    public partial struct Buy
+    public struct Buy
     {
         public double Integer;
         public string String;
